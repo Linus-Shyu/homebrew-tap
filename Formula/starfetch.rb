@@ -2,8 +2,8 @@ class Starfetch < Formula
   desc "A high-performance system information tool written in Rust"
   homepage "https://github.com/Linus-Shyu/StarFetch_Core"
   # 注意：这里的 URL 和 SHA256 会被机器人自动更新，现在可以先放个占位符
-  url "https://github.com/Linus-Shyu/StarFetch_Core/archive/refs/tags/v0.2.1.tar.gz"
-  sha256 "37769e7acc5f335eedc97f8824bdac762abd88f60321cb1b692ed5539764a751"
+  url "https://github.com/Linus-Shyu/StarFetch_Core/archive/refs/tags/v0.2.2.tar.gz"
+  sha256 "773331f3058e8b3c6dfcb2d77fb7d72a4b6b60d7a329e7044f94ebda06ce922e"
   license "MIT"
 
   depends_on "rust" => :build
