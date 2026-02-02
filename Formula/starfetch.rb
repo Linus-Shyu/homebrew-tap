@@ -6,10 +6,10 @@ class Starfetch < Formula
   
   if Hardware::CPU.arm?
     url "https://github.com/Linus-Shyu/StarFetch_Core/releases/download/v0.2.3/starfetch-aarch64-apple-darwin.tar.gz"
-    sha256 "e65ad4b6d3f72407774aa0763d1bed2545d2a4172669008e46b52f1a8368be91"
+    sha256 "97747686696a4d8ba7b0fe9a5904d08b2940e81d9e0abbeb807923b9d4d6a321"
   else
     url "https://github.com/Linus-Shyu/StarFetch_Core/releases/download/v0.2.3/starfetch-x86_64-apple-darwin.tar.gz"
-    sha256 "3fc5991b5c32059536e9408345de44f7818d0ade527473b2cb43da09d749475f"
+    sha256 "9d44ca768d081bb753314132ce2dc277eed24dcc59f900cd2c9b58f9039d4924"
   end
 
   def install
