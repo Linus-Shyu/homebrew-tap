@@ -1,15 +1,15 @@
 class Starfetch < Formula
   desc "A fast and stylish system information fetch tool"
   homepage "https://github.com/Linus-Shyu/StarFetch_Core"
-  version "0.2.3"
+  version "0.2.4"
   license "MIT"
   
   if Hardware::CPU.arm?
-    url "https://github.com/Linus-Shyu/StarFetch_Core/releases/download/v0.2.3/starfetch-aarch64-apple-darwin.tar.gz"
-    sha256 "d416cc58441df3fd29318c8f780cde1b6bfedf2b834b46a2fd2f494749285c2c"
+    url "https://github.com/Linus-Shyu/StarFetch_Core/releases/download/v0.2.4/starfetch-aarch64-apple-darwin.tar.gz"
+    sha256 "9fb962c07473fc275d6cb2955dc8b65855173173af6bfcfd75484e265036ced1"
   else
-    url "https://github.com/Linus-Shyu/StarFetch_Core/releases/download/v0.2.3/starfetch-x86_64-apple-darwin.tar.gz"
-    sha256 "136836cd42768f27e0415bef876c339d3d9766da36b63d54b43140ee5f622a9a"
+    url "https://github.com/Linus-Shyu/StarFetch_Core/releases/download/v0.2.4/starfetch-x86_64-apple-darwin.tar.gz"
+    sha256 "7191854e398b1440f258864707b76fa6d5ae6274b484e12c446e81a882768326"
   end
 
   def install
